@@ -1,0 +1,6 @@
+
+URL youtube
+
+https://www.youtube.com/watch?v=KLEuiLf_hDQ&index=5&list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD
+
+definir constantes para ej: '../app/controllers/'
