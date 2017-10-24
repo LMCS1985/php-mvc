@@ -6,7 +6,7 @@
 class Home extends Controller
 {
 	
-	function __construct(argument)
+	function __construct()
 	{
 		# code...
 	}
@@ -19,7 +19,7 @@ class Home extends Controller
 		$this->model('User');
 		$user->name = $name;
 
-		$this->view('home/index', ['name' = > $user->name]);
+		$this->view('home/index', ['name' => $user->name]);
 	}
 
 }

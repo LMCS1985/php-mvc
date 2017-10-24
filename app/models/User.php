@@ -7,7 +7,7 @@ class User
 {
 	public $name;
 
-	function __construct(argument)
+	function __construct()
 	{
 		# code...
 	}

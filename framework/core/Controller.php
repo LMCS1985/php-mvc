@@ -8,7 +8,7 @@ class Controller
 	//revisar las rutas.. deberia ser ../../app.....
 	public function model($model)
 	{
-		require_once '../app/models' . $model . '.php';
+		require_once '../app/models/' . $model . '.php';
 		return new $model();
 	}
 
